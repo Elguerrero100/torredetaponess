@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torre de Tapones</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Torre de Tapones</h1>
+        <div class="game-area">
+            <div class="tower" id="tower"></div>
+            <div class="controls">
+                <button id="addButton">Anadir Tapon</button>
+                <button id="resetButton">Reiniciar Juego</button>
+                <button id="resetRecordButton">Reiniciar Record</button>
+                <input type="password" id="passwordInput" placeholder="Ingresa la contrasena">
+            </div>
+        </div>
+        <div class="info">
+            <div id="countDisplay" class="count-display">0 tapones</div>
+            <div id="recordDisplay" class="record-display"></div>
+            <div id="gamesPlayedDisplay" class="games-played-display">Partidas jugadas: 0</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
